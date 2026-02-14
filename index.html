@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Your Name | Portfolio</title>
+  <link rel="stylesheet" href="css/styles.css" />
+</head>
+<body>
+  <header class="site-header">
+    <nav class="nav">
+      <a class="logo" href="#top">MyPortfolio</a>
+
+      <button class="nav-toggle" aria-label="Toggle menu">☰</button>
+
+      <ul class="nav-links">
+        <li><a href="#about">About</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#contact">Contact</a></li>
+        <li><button id="themeBtn" class="theme-btn" type="button">🌙</button></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main id="top">
+    <section class="hero">
+      <h1>Hi, I’m <span class="accent">Your Name</span></h1>
+      <p class="tagline">A one-liner tagline (example: “Future Web Developer building clean websites”).</p>
+      <p id="greeting" class="greeting"></p>
+      <a class="btn" href="#projects">View My Projects</a>
+    </section>
+
+    <section id="about" class="section">
+      <h2>About Me</h2>
+      <div class="about-grid">
+        <img class="profile" src="assets/images/profile-placeholder.png" alt="Profile placeholder" />
+        <div>
+          <p>
+            Write 2–3 sentences about yourself here. Example: I am a student learning web development.
+            I enjoy building simple, responsive websites and improving my skills every day.
+          </p>
+          <p>
+            Add another sentence if you want (your interests, goals, hobbies).
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <section id="projects" class="section">
+      <h2>Projects</h2>
+
+      <div class="projects-grid">
+        <article class="card">
+          <img src="assets/images/project-placeholder.png" alt="Project placeholder" />
+          <h3>Project One</h3>
+          <p>Short description of your project. (What it does, why you made it.)</p>
+          <a href="#" class="card-link">View</a>
+        </article>
+
+        <article class="card">
+          <img src="assets/images/project-placeholder.png" alt="Project placeholder" />
+          <h3>Project Two</h3>
+          <p>Short description of your project. (What it does, why you made it.)</p>
+          <a href="#" class="card-link">View</a>
+        </article>
+      </div>
+    </section>
+
+    <section id="contact" class="section">
+      <h2>Contact</h2>
+
+      <form id="contactForm" class="contact-form">
+        <label>
+          Name
+          <input type="text" id="name" name="name" required />
+        </label>
+
+        <label>
+          Email
+          <input type="email" id="email" name="email" required />
+        </label>
+
+        <label>
+          Message
+          <textarea id="message" name="message" rows="5" required></textarea>
+        </label>
+
+        <button class="btn" type="submit">Send Message</button>
+        <p id="formStatus" class="form-status"></p>
+      </form>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <p>© <span id="year"></span> Your Name. All rights reserved.</p>
+  </footer>
+
+  <script src="js/script.js"></script>
+</body>
+</html>
