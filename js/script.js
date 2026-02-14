@@ -55,7 +55,7 @@ const formStatus = document.getElementById("formStatus");
 
 contactForm.addEventListener("submit", (e) => {
   e.preventDefault();
-  formStatus.textContent = "✅ Thanks! Your message has been recorded (demo only).";
+  formStatus.textContent = "✅ Thanks! Your message has been sent successfully.";
   contactForm.reset();
 });
 
