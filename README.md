@@ -1,4 +1,3 @@
-# 202249820-omaralyamani-assignment1
 
 # Assignment 1 – Personal Portfolio Web Application
 
