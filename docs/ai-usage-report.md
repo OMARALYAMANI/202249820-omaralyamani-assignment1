@@ -6,7 +6,7 @@
   - Suggested responsive layout using Grid and media queries.
   - Helped draft README and documentation templates.
 
-(Replace with what YOU actually did.)
+
 
 ## Benefits & Challenges
 ### Benefits
